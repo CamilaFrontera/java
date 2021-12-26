@@ -1,6 +1,7 @@
 package com.ApiEstudiantes.app.model;
 
 import java.io.Serializable;
+import java.time.LocalDate;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -31,7 +32,7 @@ public class Student implements Serializable{
 	
 	private String avatar;
 	
-	private String birthday;
+	private LocalDate birthday;
 	
 	private Integer calification;
 	
@@ -78,11 +79,11 @@ public class Student implements Serializable{
 		this.avatar = avatar;
 	}
 
-	public String getBirthday() {
+	public LocalDate getBirthday() {
 		return birthday;
 	}
 
-	public void setBirthday(String birthday) {
+	public void setBirthday(LocalDate birthday) {
 		this.birthday = birthday;
 	}
 
