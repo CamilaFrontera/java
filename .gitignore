@@ -1,0 +1,7 @@
+# Configuracion local de Eclipse (puede contener copias de archivos con secretos)
+.metadata/
+# Secretos
+.env
+.env.*
+# Build
+target/
